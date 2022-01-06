@@ -1,0 +1,142 @@
+.servicecintainer,.servicecontainer{
+ min-height: 100vh;
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+ align-items: flex-start;
+ background-image: url(../images/service.png);
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+
+}
+.servicecontainer{
+    display: none;
+}
+.firstcolumn{
+    display: flex;
+    width: 100%;
+    height: 30%;
+    align-items: center;
+    justify-content: center;
+}
+#indicator{
+    width: 250px;
+    height: 4px;
+    background-color: black;
+    border: none;
+}
+.secondcolumn{
+    display: flex;
+    width: 100%;
+    height: 70%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10%;
+}
+.web, .app, .Digital, .graphic{
+    display: flex;
+    width: 280px;
+    height: 300px;
+    background-color: #000;
+    border-color: #000;
+    border-width: 2;
+    border-style: solid;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-radius: 12px;
+}
+.webtitle{
+    display: flex;
+    width: 100%;
+    height: 20%;
+    align-items: center;
+    justify-content: center;
+}
+.webparagraph{
+    display: flex;
+    width: 100%;
+    height: 80%;
+    align-items: center;
+    justify-content: center;
+}
+.thirdcolumn{
+    display: none;
+}
+@media screen and (max-width: 768px){
+    .servicecontainer{
+ min-height: 100vh;
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+ align-items: flex-start;
+ background-image: url(../images/service.png);
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+.servicecintainer{
+    display: none;
+}
+.firstcolumn{
+    display: flex;
+    width: 100%;
+    height: 30%;
+    align-items: center;
+    justify-content: center;
+}
+#indicator{
+    width: 250px;
+    height: 4px;
+    background-color: black;
+    border: none;
+}
+.secondcolumn,.thirdcolumn{
+    display: flex;
+    width: 100%;
+    height: 70%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10%;
+}
+.web, .app, .Digital, .graphic{
+    display: flex;
+    width: 220px;
+    height: 250px;
+    background-color: #000;
+    border-color: #000;
+    border-width: 2;
+    border-style: solid;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-radius: 12px;
+}
+.webtitle{
+    display: flex;
+    width: 100%;
+    height: 20%;
+    align-items: center;
+    justify-content: center;
+}
+.webparagraph{
+    display: flex;
+    width: 100%;
+    height: 80%;
+    align-items: center;
+    justify-content: center;
+}
+.nav-wrapper{
+    margin-left: -8%;
+}
+.caption{
+    height: 265px;
+    width: 80%;
+}
+.h2{
+    font-size: 9px;
+}
+}
